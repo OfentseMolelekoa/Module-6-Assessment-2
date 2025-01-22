@@ -1,0 +1,664 @@
+/*=======================General Reset/============================*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    width: 100%;
+    overflow:auto;
+}
+/*=======================General Reset/============================*/
+
+
+
+/*=======================Page Titles/============================*/
+#page-titles{
+    color: orange;
+    font-size: 45px;
+}
+/*=======================Page Titles/============================*/
+
+
+
+/*=============Individual vehicle pages - coupe/sedan/suv/=========*/
+.side-bar-search-inventory input{
+    height: 25px;
+}
+.side-bar-search-inventory{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search-inventory-btn {
+    margin-left: 44%;
+    display: block;
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: 12%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*=============Individual vehicle pages - coupe/sedan/suv/=========*/
+
+
+/*=======================Navigation-Bar============================*/
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0; 
+    padding: 30px;
+    font-family: "Poppings", sans-serif;
+}
+.navigation-list a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+}
+.navigation-list a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+/*=======================Navigation-Bar============================*/
+
+
+
+/*=======================Footer============================*/
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0; 
+    margin-top: 50px;
+}
+.footer-items-first-section {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-items-second-section {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-items-first-section a {
+    color: white;
+    text-decoration: none;
+}
+.footer-items-first-section li {
+    margin-top: 10px;
+}
+.footer-items-second-section li {
+    margin-top: 10px;
+}
+/*=======================Footer============================*/
+
+
+/*=======================Home/Index Page============================*/
+.banner-section img {
+    width: 100%;
+    overflow: hidden;
+}
+.main-content-home {
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+.index-title {
+    font-size: 70px;
+}
+#company-name {
+    display: inline;
+    font-size: 70px;
+    color: orange;
+    font-style: italic;
+}
+#first-tag-index {
+    font-size: 30px;
+}
+.welcome-note-ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+#read-more-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+}
+#search-button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: orange;
+}
+.search input {
+    width: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color: rgba(128, 128, 128, 0.406);
+}
+.search i {
+    font-size: 25px;
+}
+#second-tag-index{
+    font-style: italic;
+    font-size: 35px;
+    display: inline;
+    color: orange;
+}
+.google-maps-iframe {
+    margin-top: 100px;
+}
+.google-maps-iframe iframe {
+    width: 80%;
+    border-radius: 20px;
+}
+.sales-category-card {
+    margin-top: 50px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    background-color: white; 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.sales-category-card h3 {
+    font-size: 25px; 
+    color: #333; 
+    margin-bottom: 10px;
+}
+.sales-category-card p {
+    font-size: 18px;
+    color: #666; 
+    margin-bottom: 15px;
+}
+.sales-category-card a {
+    display: inline-block;
+    color: orange; 
+    font-size: 40px;
+}
+.sales-category-card a:hover {
+    transition: color 0.5s ease; 
+    color: darkcyan; 
+}
+.sales-category-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+}
+.sales-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+.inner-content-card {
+    margin-top: 50px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    background-color: white; 
+    text-align: center; 
+}
+.inner-content-card a{
+    font-size: 20px;
+    text-decoration: none;
+}
+/*=======================Home/Index Page============================*/
+
+
+
+/*=======================Finance application page============================*/
+.application-documents-businesses {
+    display: flex;
+    flex-direction: column;
+}
+.application-documents-businesses label, input {
+    margin-top: 20px;
+}
+.application-documents-private {
+    display: flex;
+    flex-direction: column;
+}
+.application-documents-private label, input {
+    margin-top: 20px;
+}
+/*=======================Finance application page============================*/
+
+
+
+/*=======================Affordability calculator page============================*/
+.main-content-affordability-calculator {
+    margin-left: 10px;
+    font-family: "Poppins", serif;
+}
+.affordability-calculator-box {
+    border: 3px solid orange;
+    border-radius: 20px;
+    text-align: center;
+}
+.calculate-your-affordability-button {
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: orange;
+}
+.affordability-result-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px dotted rgb(0, 88, 88);
+    border-radius: 20px;
+}
+.affordability-calculator-box input {
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 15%;
+    padding: 5px;
+}
+.affordability-calculator-box label {
+    font-size: 18px;
+    font-family: "Poppins", serif;
+}
+.affordability-calculator-box p {
+    font-size: 18px;
+}
+.affordability-calculator-box h2 {
+    color: orange;
+}
+/*=======================Affordability calculator page============================*/
+
+
+
+/*=======================Vehicles Page============================*/
+.main-content-vehicles {
+    margin-left: 10px;
+    font-family: "Poppins", serif;
+}
+#vehicle-class-title {
+    font-size: 50px;
+    color: orange;
+    font-weight: 700;
+}
+#vehicle-class-tag-line {
+    font-size: 25px;
+    font-weight: 700;
+}
+.vehicle-category-card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.vehicle-category-card {
+    margin-top: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    background-color: white; 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+/*=======================Vehicle Page============================*/
+
+
+
+/*=======================Apply For Finance Page============================*/
+.main-content-apply-for-finance {
+    font-family: "Poppins", sans-serif;
+    padding-left: 10px;
+}
+.apply-for-finance-proceedBtn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+    margin-left: 15%
+}
+/*=======================Apply For Finance Page============================*/
+
+
+
+/*==================================Gallery============================*/
+.main-content-gallery {
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+}
+.gallery-images-card {
+    text-align: center;
+}
+.gallery-images-card img {
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 15%;
+}
+.vehicle-requirements {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 40px;
+    border: 1px solid rgb(211, 211, 211); 
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: white; 
+    text-align: center; 
+}
+.vehicle-specifics-download-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    padding: 15px;
+}
+#submit-document-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    padding: 15px;
+}
+/*==================================Gallery Page============================*/
+
+
+
+/*==================================Contact Us Page============================*/
+.main-content-contact-us {
+    font-family: "Poppins", sans-serif;
+    margin: 40px auto; /* Center the main content horizontally */
+    border: 1px solid orange; 
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: white; 
+    text-align: center; 
+    max-width: 80%; /* Limit the width of the main content */
+}
+.contact-info {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 40px auto; /* Add margin for spacing and centering */
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: white; 
+    text-align: center; 
+    max-width: 60%; /* Limit the width of the contact info */
+}
+.contact-info a img {
+    width: 20px;
+    margin-right: 10px;
+}
+.contact-tags {
+    font-size: 20px;
+    color: orange;
+}
+#flaticon-icons {
+    font-size: 25px;
+}
+#contact-form-submit-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.contact-second-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto; 
+}
+#message-input {
+    padding: 30px;
+    border: 2px solid rgb(92, 220, 0);
+    border-radius: 10px;
+}
+#message-input::placeholder {
+    text-align: center; 
+    color: rgb(120, 120, 120); 
+}
+#contact-form-submission-status {
+    color: red;
+}
+/*==================================Contact Us Page============================*/
+
+
+/*==================================Finance Application Details============================*/
+.main-content-finance-application-details {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px 1px rgb(0, 0, 0);
+    font-family: "poppins", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.submit-application-button {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/*==================================Finance Application Details============================*/
+
+
+/*=========================================Careers Portal=================================*/
+.main-content-careers {
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+#vacancies-page-sub-title {
+    font-size: 25px;
+}
+.vacancy-card {
+    border: 1px solid rgb(74, 74, 74);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+/*=========================================Careers Portal=================================*/
+
+
+
+/*=========================================Auction Page=================================*/
+.main-content-our-auction {
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.sign-up-for-auction {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.sign-up-for-auction-form {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-for-auction-form input {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: darkcyan;
+}
+.sign-up-section img {
+    max-width: 30px;
+    margin-right: 40px;
+}
+.sign-up-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+}
+#log-in-btn{
+    background-color: darkcyan;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+}
+#download-brochure-btn {
+    background-color: orange;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 12%;
+    margin-bottom: 30px;
+}
+/*=========================================Auction Page=================================*/
+
+
+
+/*=========================================About Us Page=================================*/
+.main-content-about-us {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+/*=========================================About Us Page=================================*/
+
+
+
+/*=========================================Individual Vehicles Page=================================*/
+.main-content-vehicle-pages {
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.vehicle-showcase-cards {
+    margin-top: 50px;
+}
+.vehicle-card {
+    border: 1px solid gray;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(200, 200, 200);
+    padding-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.vehicle-card li {
+    list-style-type: none;
+    font-size: 18px;
+}
+.vehicle-card i {
+    margin-right: 10px;
+    color: rgb(0, 35, 35);
+    font-size: 18px;
+}
+.vehicle-card img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    max-width: 30%;
+    max-height: 30%;
+}
+/*=========================================Individuals Vehicles Page=================================*/
+
+
+
+/*=========================================Terms and conditions page=================================*/
+.main-content-tcs {
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.terms-and-conditions-list {
+    font-size: 20px;
+}
+.terms-and-conditions-list li {
+    margin-bottom: 50px;
+}
+/*=========================================Terms and conditions page=================================*/
+
+
+
+/*=========================================Gallery animations=================================*/
+.gallery-images-card img{
+	-moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+.gallery-images-card img:hover {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+}
+/*=========================================Gallery image animations=================================*/
+
+
+
+/*=========================================Vehicle image animations=================================*/
+
+.vehicle-card img {
+    margin-left: 40px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+.vehicle-card img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/*=========================================Vehicle image animations=================================*/

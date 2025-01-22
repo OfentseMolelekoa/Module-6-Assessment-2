@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Lato:wght@400;700&family=Meow+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Style+Script&family=Yellowtail&display=swap" rel="stylesheet"/>
+        <title>Affordability Calculator</title>
+    </head>
+<body>
+    <nav>
+        <ul class="navigation-list">
+            <a href="index.html"><li>Home</li></a>
+            <a href="about-us.html"><li>About Us</li></a>
+            <a href="vehicles.html"><li>Vehicles</li></a>
+            <a href="apply-for-finance.html"><li>Finance</li></a>
+            <a href="gallery.html"><li>Gallery</li></a>
+            <a href="contact-us.html"><li>Contact Us</li></a>
+            <a href="careers.html"><li>Careers Portal</li></a>
+        </ul>
+    </nav>
+
+        <main>
+            <div class="main-content-affordability-calculator">
+                <h1 id="page-titles">Prefer to calculate your affordability prior to applying for finance?</h1>
+                <h3>Check out our affordability calculator below</h3>
+                <h3>
+                    As we prioritize financial well-being, affordability calculations are done to ensure that our clients do not experience financial shortfalls which lead to missed payments
+                    on their purchased vehicles and ultimately leading to repossession. For the clients financial convenience, kindly ensure to do the 
+                    affordability calculation below, contact us for a credit assessment and more detailed and accurate affordability information.
+                </h3>
+                <div class="affordability-calculator-box">
+                    <form class="applicant-details-form">
+                        <h2>Applicant Financial Details</h2>
+                        <strong><p>Enter your gross monthly income</p></strong>
+                        <label for="monthly-income">Monthly Income</label>
+                        <input type="number" id="monthly-income-parameter" placeholder="Enter Gross Monthly Income"/>
+
+                        <strong><p>Enter your total extra monthly income (if applicable)</p></strong>
+                        <label for="monthly-extra-income">Monthly Extra Income</label>
+                        <input type="number" id="monthly-extra-income-parameter" placeholder="Enter Monthly Extra Income"/>
+
+                        <strong><p>Enter your total monthly deductions</p></strong>
+                        <label for="monthly-income">Monthly Deductions</label>
+                        <input type="number" id="monthly-deductions-parameter" placeholder="Enter Monthly Deductions"/>
+
+                        <strong><p>Enter your total monthly expenses</p></strong>
+                        <label for="monthly-income">Monthly Expenses</label>
+                        <input type="number" id="monthly-expenses-parameter" placeholder="Enter Monthly Expenses"/>
+                    </form>
+
+                    <form class="vehicle-details-form">
+                        <h2>Vehicle Details</h2>
+                        <h3>Identified a vehicle you'd like to purchase yet?</h3>
+
+                        <strong><p>Enter the name of the identified vehicle</p></strong>
+                        <label for="vehicle-name">Vehicle name</label>
+                        <input type="text" id="vehicle-name-parameter" placeholder="Enter Vehicle Name"/>
+
+                        <strong><p>Enter the price of the identified vehicle</p></strong>
+                        <label for="vehicle-price">Vehicle price</label>
+                        <input type="number" id="vehicle-price-parameter" placeholder="Enter Vehicle Price"/>
+
+                        <strong><p>Enter loan repayment term: 1 - 6 years</p></strong>
+                        <label for="vehicle-price">Loan term</label>
+                        <input type="number" id="loan-term-parameter" placeholder="Enter Loan Term"/>
+                        <p>
+                            NB: Finance affordability will be calculated at an approximate interest rate of 9.25%. Kindly get in touch with
+                            our sales staff for credit assessment for a more precise affordability calculation based on your credit rating as 
+                            interest rate for vehicle finance varies depending on the borrower's credit risk profile and the prime interest rate.
+                        </p>
+                    </form>
+
+                    <button class="calculate-your-affordability-button">Calculate Your Affordability</button>
+
+                    <div class="affordability-result-section">
+                        <p>View finance affordability based on the information provided</p>
+                        <div class="result">
+                            <p class="result-val">
+                                <!--Value here-->
+                            </p>
+                            <div class="affordability-description">
+                                <p class="affordability-description-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <ul class="footer-items-first-section">
+                <li>©2025 All Rights Reserved | Developed by Ofentse Molelekoa - IT Varsity</li>
+                <li>AUTO4SALE Group</li>
+                <a href="terms-and-conditions.html"><li>Terms and Conditions</li></a>
+            </ul>
+            <ul class="footer-items-second-section">
+                <li>Mon-Fri: 8:00am - 5:00pm</li>
+                <li>Sat: Closed</li>
+                <li>Sun: 09:00am - 1:00pm</li>
+                <li>Public Holidays: 08:00am - 1:00pm</li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="js-files/affordability-calculator.js"></script>
+</body>
+</html>
